@@ -1,0 +1,12 @@
+S = NP " " VP
+VP = VP PP | V NP | V
+PP = P NP
+NP = Det N | N | Pn | Det A N | A NP
+A = Adv A | A A
+Adv = "too" | "very" | "quite"
+Pn = "she" | "he"
+A = "fresh" | "tasty" | "silver"
+N = "fish" | "fork" | "apple"
+V = "eats"
+Det = "a" | "an" | "the"
+P = "with"

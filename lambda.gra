@@ -1,0 +1,2 @@
+expression = var | "(" expression " " expression ")" | "(\" var "." expression ")"
+var = "x" | "y" | "z"

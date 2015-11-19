@@ -1,0 +1,4 @@
+expression = var | application | abstraction | "(" expression ")"
+application = expression " " expression
+abstraction = "\" var "." expression
+var = "x" | "y" | "z"
